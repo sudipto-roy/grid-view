@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grid View</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <main>
+        <input class="image-upload" type="file" name="imageUpload" id="imageUpload">
+        <div class="grid-options">
+            <label for="gridColumn">Select No. of Columns</label>
+            <select id="gridColumn" disabled="disabled">
+                <option>select</option>
+                <option value="col-2">2</option>
+                <option value="col-3">3</option>
+                <option value="col-4">4</option>
+                <option value="col-5">5</option>
+                <option value="col-6">6</option>
+                <option value="col-7">7</option>
+                <option value="col-8">8</option>
+                <option value="col-9">9</option>
+                <option value="col-10">10</option>
+                <option value="col-11">11</option>
+                <option value="col-12">12</option>
+            </select>
+            <label for="gridColor">Select Color</label>
+            <select id="gridColor" disabled="disabled">
+                <option value="#ffff00">Yello</option>
+                <option value="#ff0000">Red</option>
+                <option value="#ffffff">White</option>
+                <option value="#000000">Black</option>
+            </select>
+        </div>
+        <div class="display-container">
+            <img class="subject-image" id="subjectImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="preview of uploaded image">
+            <div id="flexContainer" class="flex-container">
+                <div class="flex-item one">1</div>
+                <div class="flex-item two">2</div>
+                <div class="flex-item three">3</div>
+                <div class="flex-item four">4</div>
+                <div class="flex-item five">5</div>
+                <div class="flex-item six">6</div>
+                <div class="flex-item seven">7</div>
+                <div class="flex-item eight">8</div>
+                <div class="flex-item nine">9</div>
+                <div class="flex-item ten">10</div>
+                <div class="flex-item eleven">11</div>
+                <div class="flex-item twelve">12</div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="./js/ImagePreview.js"></script>
+    <script type="text/javascript" src="./js/initialize.js"></script>
+</body>
+
+</html>

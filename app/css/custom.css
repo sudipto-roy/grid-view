@@ -1,0 +1,73 @@
+.image-upload {
+    display: block;
+    margin: 10px auto;
+}
+.grid-options {
+    margin: var(--margin-between-elements);
+}
+.display-container {
+    display: inline-block;
+    position: relative;
+}
+.flex-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.flex-container > div {
+    border: 1px solid var(--grid-color);
+    text-align: center;
+    overflow: hidden;
+    color: var(--grid-color);
+}
+.flex-item {
+    display: none;
+}
+.col-2 .one, .col-2 .two,
+.col-3 .one, .col-3 .two, .col-3 .three,
+.col-4 .one, .col-4 .two, .col-4 .three, .col-4 .four,
+.col-5 .one, .col-5 .two, .col-5 .three, .col-5 .four, .col-5 .five,
+.col-6 .one, .col-6 .two, .col-6 .three, .col-6 .four, .col-6 .five, .col-6 .six,
+.col-7 .one, .col-7 .two, .col-7 .three, .col-7 .four, .col-7 .five, .col-7 .six, .col-7 .seven,
+.col-8 .one, .col-8 .two, .col-8 .three, .col-8 .four, .col-8 .five, .col-8 .six, .col-8 .seven, .col-8 .eight,
+.col-9 .one, .col-9 .two, .col-9 .three, .col-9 .four, .col-9 .five, .col-9 .six, .col-9 .seven, .col-9 .eight, .col-9 .nine,
+.col-10 .one, .col-10 .two, .col-10 .three, .col-10 .four, .col-10 .five, .col-10 .six, .col-10 .seven, .col-10 .eight, .col-10 .nine, .col-10 .ten,
+.col-11 .one, .col-11 .two, .col-11 .three, .col-11 .four, .col-11 .five, .col-11 .six, .col-11 .seven, .col-11 .eight, .col-11 .nine, .col-11 .ten, .col-11 .eleven,
+.col-12 .one, .col-12 .two, .col-12 .three, .col-12 .four, .col-12 .five, .col-12 .six, .col-12 .seven, .col-12 .eight, .col-12 .nine, .col-12 .ten, .col-12 .eleven, .col-12 .twelve{
+    display: block;
+}
+.col-2 .flex-item {
+    width: calc(100% / 2);
+}
+.col-3 .flex-item {
+    width: calc(100% / 3);
+}
+.col-4 .flex-item {
+    width: calc(100% / 4);
+}
+.col-5 .flex-item {
+    width: calc(100% / 5);
+}
+.col-6 .flex-item {
+    width: calc(100% / 6);
+}
+.col-7 .flex-item {
+    width: calc(100% / 7);
+}
+.col-8 .flex-item {
+    width: calc(100% / 8);
+}
+.col-9 .flex-item {
+    width: calc(100% / 9);
+}
+.col-10 .flex-item {
+    width: calc(100% / 10);
+}
+.col-11 .flex-item {
+    width: calc(100% / 11);
+}
+.col-12 .flex-item {
+    width: calc(100% / 12);
+}
